@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * main - Entry point
+/**
+ * main - entry point
  * Description: Check last digit
  * Return: Always 0 (success)
  */
@@ -18,11 +18,11 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, k);
 	}
-	else if (n == 0)
+	else if (k == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, k);
 	}
-	else if (n < 6 && n != 0)
+	else if (k < 6 && k != 0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, k);
 	}
