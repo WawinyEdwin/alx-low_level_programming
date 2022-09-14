@@ -1,7 +1,8 @@
 /* prototypes of functions */
 
-#ifndef main.h
-#define main.h
+#ifndef _main_h_
+#define _main_h_
 
-int _putchar(char c)
+int _putchar(char c);
 
+#endif
